@@ -1,0 +1,27 @@
+{
+  "name": "myserverconnection",
+  "version": "1.0.0",
+  "description": "prueba de servidor con express desarrollo propio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenaresDesarrollo/MyServerConection.git"
+  },
+  "author": "Carlos Menares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenaresDesarrollo/MyServerConection/issues"
+  },
+  "homepage": "https://github.com/MenaresDesarrollo/MyServerConection#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
